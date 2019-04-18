@@ -22,7 +22,7 @@ def train(n_epochs, batch_size, starting_weights_path, save_path):
 
 
 def main(argv):
-    starting_weights_path = "./Saved_Models/Dense169.h5"
+    starting_weights_path = "./Saved_Models/Dense169_ImageNet.h5"
     save_path = strftime("./Saved_Models/Dense169_%Y%m%d%H%M%S.h5", gmtime())
     n_epochs = 1
     batch_size = 8
